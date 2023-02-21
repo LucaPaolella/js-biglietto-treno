@@ -9,10 +9,12 @@ console.log(km)
 let price = ` This is the price of your ticket: ( ${km} * 0.21)`;
 console.log(price)
 if (age >= 65){
-    price = "km * 0.84";
+    price = parseInt (km * 0.84);
+    console.log(price)
 }
 if (age <= 18){
-    price = "km * 0.42";
+    price = parseInt (km * 0.42);
+    console.log(price)
 }
 
 
